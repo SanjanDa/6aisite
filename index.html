@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6ai.site - Online Exam Platform</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero-text {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero-text h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .hero-text .btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .hero-text .btn:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .about, .services, .contact {
+            background-color: #f9f9f9;
+        }
+
+        .about h2, .services h2, .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .about p, .services p {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+        }
+
+        .service-item {
+            margin: 20px 0;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact button:hover {
+            background-color: #555;
+        }
+
+        .profile {
+            padding: 60px 20px;
+            background-color: #e0f7fa;
+            text-align: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .profile h2 {
+            font-size: 2em;
+            margin: 20px 0 10px;
+        }
+
+        .profile p {
+            font-size: 1.1em;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+         
+        .exam-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        
+
+               .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .exam-button {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .exam-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">6ai.site</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#online-exam">Online Exam</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to 6ai.site</h1>
+            <p>Your one-stop solution for all your online exam needs.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    
+    <section id="online-exam" class="about">
+        <h2>Online Exam Platform</h2>
+        <p>At 6ai.site, we provide a comprehensive online exam platform that ensures a seamless and efficient examination process. Our platform is designed to cater to the needs of educational institutions, professional organizations, and certification bodies.</p>
+        <p>Experience the future of examinations with advanced features, user-friendly interface, and robust security measures.</p>
+        
+    </section>
+    <div class="exam-container">
+        <h1>Online Exam of Primary Section</h1>
+        <div class="button-container">
+            <a href="c4/in4.html" class="exam-button">Class 4</a>
+            <a href="c5/in5.html" class="exam-button">Class 5</a>
+            
+        </div>
+        <h1>Online Exam of Middle School</h1>
+        <div class="button-container">
+            
+            <a href="c6/in6.html" class="exam-button">Class 6</a>
+            <a href="c7/in7.html" class="exam-button">Class 7</a>
+            <a href="c8/in8.html" class="exam-button">Class 8</a>
+            
+        </div>
+        <h1>Online Exam of High School</h1>
+        <div class="button-container">
+            
+            <a href="c9/in9.html" class="exam-button">Class 9</a>
+            <a href="c10/in10.html" class="exam-button">Class 10</a>
+        </div>
+    </div>
+    
+    <section id="about" class="services">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing the best online examination services. Our platform is built with cutting-edge technology to deliver an exceptional user experience. Whether you are an educator or a learner, our goal is to make online examinations accessible, reliable, and efficient.</p>
+    </section>
+    
+    <section id="profile" class="profile">
+        <img src="Sanjan_photo.jpeg" alt="Sanjan Das">
+        <h2>Sanjan Das</h2>
+        <p>Hello, I am Sanjan Das, dedicated to helping students from class 4 to 10 with all subjects, especially for the ICSE board. Through this platform, I aim to resolve all types of problems students might face in their academic journey.</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 6ai.site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
